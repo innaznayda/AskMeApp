@@ -4,7 +4,7 @@ using Android.OS;
 using Android.Runtime;
 
 namespace TryMeApp {
-    [Activity(Label = "TryMeApp", MainLauncher = true)]
+    [Activity(Label = "AskMe", MainLauncher = true)]
     public class MainActivity : Activity {
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
