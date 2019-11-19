@@ -28,8 +28,84 @@ namespace TryMeApp
 		{
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int WheelArrayDefault = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int WheelArrayWeek = 2130968577;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f010010
+			public const int wheel_atmospheric = 2130771984;
+			
+			// aapt resource value: 0x7f01000e
+			public const int wheel_curtain = 2130771982;
+			
+			// aapt resource value: 0x7f01000f
+			public const int wheel_curtain_color = 2130771983;
+			
+			// aapt resource value: 0x7f010011
+			public const int wheel_curved = 2130771985;
+			
+			// aapt resource value: 0x7f01000a
+			public const int wheel_cyclic = 2130771978;
+			
+			// aapt resource value: 0x7f010000
+			public const int wheel_data = 2130771968;
+			
+			// aapt resource value: 0x7f01000b
+			public const int wheel_indicator = 2130771979;
+			
+			// aapt resource value: 0x7f01000c
+			public const int wheel_indicator_color = 2130771980;
+			
+			// aapt resource value: 0x7f01000d
+			public const int wheel_indicator_size = 2130771981;
+			
+			// aapt resource value: 0x7f010012
+			public const int wheel_item_align = 2130771986;
+			
+			// aapt resource value: 0x7f010009
+			public const int wheel_item_space = 2130771977;
+			
+			// aapt resource value: 0x7f010003
+			public const int wheel_item_text_color = 2130771971;
+			
+			// aapt resource value: 0x7f010002
+			public const int wheel_item_text_size = 2130771970;
+			
+			// aapt resource value: 0x7f010006
+			public const int wheel_maximum_width_text = 2130771974;
+			
+			// aapt resource value: 0x7f010007
+			public const int wheel_maximum_width_text_position = 2130771975;
+			
+			// aapt resource value: 0x7f010005
+			public const int wheel_same_width = 2130771973;
+			
+			// aapt resource value: 0x7f010001
+			public const int wheel_selected_item_position = 2130771969;
+			
+			// aapt resource value: 0x7f010004
+			public const int wheel_selected_item_text_color = 2130771972;
+			
+			// aapt resource value: 0x7f010008
+			public const int wheel_visible_item_count = 2130771976;
 			
 			static Attribute()
 			{
@@ -41,11 +117,66 @@ namespace TryMeApp
 			}
 		}
 		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int WheelIndicatorSize = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int WheelItemSpace = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int WheelItemTextSize = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int WheelMargins = 2131034115;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int myButton = 2130968576;
+			// aapt resource value: 0x7f060000
+			public const int center = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int left = 2131099649;
+			
+			// aapt resource value: 0x7f060003
+			public const int myButton = 2131099651;
+			
+			// aapt resource value: 0x7f060004
+			public const int pickerWheel = 2131099652;
+			
+			// aapt resource value: 0x7f060002
+			public const int right = 2131099650;
+			
+			// aapt resource value: 0x7f060009
+			public const int wheel_date_picker_day = 2131099657;
+			
+			// aapt resource value: 0x7f06000a
+			public const int wheel_date_picker_day_tv = 2131099658;
+			
+			// aapt resource value: 0x7f060007
+			public const int wheel_date_picker_month = 2131099655;
+			
+			// aapt resource value: 0x7f060008
+			public const int wheel_date_picker_month_tv = 2131099656;
+			
+			// aapt resource value: 0x7f060005
+			public const int wheel_date_picker_year = 2131099653;
+			
+			// aapt resource value: 0x7f060006
+			public const int wheel_date_picker_year_tv = 2131099654;
 			
 			static Id()
 			{
@@ -63,6 +194,9 @@ namespace TryMeApp
 			// aapt resource value: 0x7f020000
 			public const int Main = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int view_wheel_date_picker = 2130837505;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -77,7 +211,16 @@ namespace TryMeApp
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			public const int Day = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Month = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Year = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int app_name = 2130903043;
 			
 			static String()
 			{
@@ -85,6 +228,97 @@ namespace TryMeApp
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] WheelPicker = new int[] {
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978,
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984,
+					2130771985,
+					2130771986};
+			
+			// aapt resource value: 16
+			public const int WheelPicker_wheel_atmospheric = 16;
+			
+			// aapt resource value: 14
+			public const int WheelPicker_wheel_curtain = 14;
+			
+			// aapt resource value: 15
+			public const int WheelPicker_wheel_curtain_color = 15;
+			
+			// aapt resource value: 17
+			public const int WheelPicker_wheel_curved = 17;
+			
+			// aapt resource value: 10
+			public const int WheelPicker_wheel_cyclic = 10;
+			
+			// aapt resource value: 0
+			public const int WheelPicker_wheel_data = 0;
+			
+			// aapt resource value: 11
+			public const int WheelPicker_wheel_indicator = 11;
+			
+			// aapt resource value: 12
+			public const int WheelPicker_wheel_indicator_color = 12;
+			
+			// aapt resource value: 13
+			public const int WheelPicker_wheel_indicator_size = 13;
+			
+			// aapt resource value: 18
+			public const int WheelPicker_wheel_item_align = 18;
+			
+			// aapt resource value: 9
+			public const int WheelPicker_wheel_item_space = 9;
+			
+			// aapt resource value: 3
+			public const int WheelPicker_wheel_item_text_color = 3;
+			
+			// aapt resource value: 2
+			public const int WheelPicker_wheel_item_text_size = 2;
+			
+			// aapt resource value: 6
+			public const int WheelPicker_wheel_maximum_width_text = 6;
+			
+			// aapt resource value: 7
+			public const int WheelPicker_wheel_maximum_width_text_position = 7;
+			
+			// aapt resource value: 5
+			public const int WheelPicker_wheel_same_width = 5;
+			
+			// aapt resource value: 1
+			public const int WheelPicker_wheel_selected_item_position = 1;
+			
+			// aapt resource value: 4
+			public const int WheelPicker_wheel_selected_item_text_color = 4;
+			
+			// aapt resource value: 8
+			public const int WheelPicker_wheel_visible_item_count = 8;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}
