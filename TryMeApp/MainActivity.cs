@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using Android.Views;
 
 namespace TryMeApp {
-    [Activity(Label = "AskMe", MainLauncher = true)]
+    [Activity(Label = "AskMe", MainLauncher = true, Icon ="@drawable/icon")]
     public class MainActivity : Activity {
         public static string Question;
         public static List<string> Choices = new List<string>();

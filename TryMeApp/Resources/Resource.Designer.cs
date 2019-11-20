@@ -151,6 +151,9 @@ namespace TryMeApp
 			// aapt resource value: 0x7f020001
 			public const int deal = 2130837505;
 			
+			// aapt resource value: 0x7f020002
+			public const int icon = 2130837506;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
