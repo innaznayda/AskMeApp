@@ -10,7 +10,7 @@ namespace TryMeApp {
     [Activity(Label = "AskMe", MainLauncher = true, Icon ="@drawable/icon")]
     public class MainActivity : Activity {
         public static string Question;
-        public static List<string> Choices = new List<string>();
+        public static List<string> Choices;
         private Button DecideButton;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -31,8 +31,8 @@ namespace TryMeApp {
             StartActivity(intent);
         }
 
-        private void FillInInfo()
-        {
+        private void FillInInfo() {
+            Choices.Clear();
             var question = FindViewById<TextView>(Resource.Id.questionText);
             Question = question.Text;
 
